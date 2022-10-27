@@ -11,239 +11,307 @@ export const Macbook: React.FC = () => {
       <ambientLight />
       <pointLight position={[5, 5, 5]} intensity={1} />
       <OrbitControls />
-      <MacbookAir />
+      <MBP />
     </Canvas>
   );
 };
 
 type GLTFResult = GLTF & {
   nodes: {
-    BzNfMMFMUvENCVB: THREE.Mesh;
-    vAGUyiVXfoNCfiz: THREE.Mesh;
-    knmwBVvqKBprdhy: THREE.Mesh;
-    IYquytLCepLmUBo: THREE.Mesh;
-    XzIjLarnJovNeFY: THREE.Mesh;
-    TyqbjvAzBnHiKwb: THREE.Mesh;
-    DghamaUxTHefQMN: THREE.Mesh;
-    wBBInSfLdDJGZAT: THREE.Mesh;
-    MufZdDNbnijUuDI: THREE.Mesh;
-    dzdDbHwlhsKhKXE: THREE.Mesh;
-    zmyDIvIISmVcrBw: THREE.Mesh;
-    QFkVghDULzcFGVS: THREE.Mesh;
-    DBvXeGikYLUKwdH: THREE.Mesh;
-    AwlBoBERHXitENF: THREE.Mesh;
-    FxYJZRjJWVjYwLV: THREE.Mesh;
-    efIPqtkSgQqIhbu: THREE.Mesh;
-    myHPgRcFLsxMInV: THREE.Mesh;
-    vmspsaCrmgKKjDd: THREE.Mesh;
-    chqYjnnQUYDygUd: THREE.Mesh;
-    ZbOWBLfcdfJLGbf: THREE.Mesh;
-    qtSHRxgTTtHDvvz: THREE.Mesh;
-    GuLDLtucEkhptAy: THREE.Mesh;
-    iPaYIdfHAoErrDD: THREE.Mesh;
-    tJeThulAohRVCYu: THREE.Mesh;
-    XqwOTtPISptJqzk: THREE.Mesh;
-    vyTbhVpPBeJrZxo: THREE.Mesh;
-    AUMLEhzRIkXUmsX: THREE.Mesh;
-    TkULcWkLJtogGVS: THREE.Mesh;
-    xJpdzOlweWAHqYU: THREE.Mesh;
-    TFsPkHBGmohYDUF: THREE.Mesh;
-    pcpUMJfNezWkOrK: THREE.Mesh;
-    vCoMumYuFVRrDxl: THREE.Mesh;
-    HzLAtwpaEQrTUta: THREE.Mesh;
-    tThJTMCDmnrUEvB: THREE.Mesh;
-    MXSRHoWxOJGMjpX: THREE.Mesh;
-    NZXezpncDrTVPYd: THREE.Mesh;
-    NfMmOpMNmolpLfw: THREE.Mesh;
-    TVhBYZaRqtFURFF: THREE.Mesh;
+    WeTEPJkcTkMBwBo: THREE.Mesh;
+    yxTDdMZViYkuOKm: THREE.Mesh;
+    pPCeNYAcgHQGnfB: THREE.Mesh;
+    CpRxqsFibJhVZKA: THREE.Mesh;
+    abgVijaHVNRUvcc: THREE.Mesh;
+    CEvArJuvvmtQsgk: THREE.Mesh;
+    aUVveCqqwsqchVB: THREE.Mesh;
+    fiqlelggeOoTUAw: THREE.Mesh;
+    zlRXoydEgBQgFUa: THREE.Mesh;
+    YvEVHGlTGUxXlGj: THREE.Mesh;
+    FnbkdmFKVeCCxTX: THREE.Mesh;
+    ehiyYGFzDbgxhiD: THREE.Mesh;
+    NhThIZELXlNUoIr: THREE.Mesh;
+    RYgQzNzcnFbacQH: THREE.Mesh;
+    JtnJKXAEPaOoepM: THREE.Mesh;
+    UxiDBlCRfXiMBzT: THREE.Mesh;
+    NgmQYtxXWDmCavo: THREE.Mesh;
+    PSIiVLWbMOjTmDb: THREE.Mesh;
+    RkSurqpnfNMQZfv: THREE.Mesh;
+    YJMoQnvBNpTrgeH: THREE.Mesh;
+    KCEhahuknsxQOxv: THREE.Mesh;
+    tEHnKyDsqJuxIpz: THREE.Mesh;
+    TCGsaoyNbPKzeSS: THREE.Mesh;
+    DAuseNOrQKyrxKl: THREE.Mesh;
+    SjXIFRJFXEqYDUr: THREE.Mesh;
+    eAcvqfZlEdoxHsj: THREE.Mesh;
+    gkxaPoMYYRpyVMR: THREE.Mesh;
+    xlRLalLTesirCGW: THREE.Mesh;
+    ZlizOzukFeXwbga: THREE.Mesh;
+    wXiLpiodZWNDroe: THREE.Mesh;
+    PTxrSKzcEmHVtif: THREE.Mesh;
+    RjGOdbHqvxkiDns: THREE.Mesh;
+    WPFmzKypKbUYgQT: THREE.Mesh;
+    QHqPxKdexBoFnAK: THREE.Mesh;
+    NWErafhynAfYQEz: THREE.Mesh;
+    tEwRkclpxjXZzil: THREE.Mesh;
+    QYMcPaZnXQfyXcJ: THREE.Mesh;
+    piXptsgcOfaGWrM: THREE.Mesh;
+    SjSNuZdtWKZRuoq: THREE.Mesh;
+    QFFLzaWPRnuQYJR: THREE.Mesh;
+    xjTvBwZFGvSMOud: THREE.Mesh;
+    VqfccLWHjnpnmIO: THREE.Mesh;
+    mUrIWHenIQKVHcb: THREE.Mesh;
+    NdRhLFCrSxRNTxn: THREE.Mesh;
+    vivXPkdlqllUnrl: THREE.Mesh;
+    rIsAbujsARaHSub: THREE.Mesh;
+    QMBrsnrwfcVKELm: THREE.Mesh;
+    NqLxSKdAypgOdPC: THREE.Mesh;
+    guoofBSjCEiTIJr: THREE.Mesh;
+    jvyJQHpRnZNPEYh: THREE.Mesh;
   };
   materials: {
-    aqhAfpkxnZPmIhk: THREE.MeshStandardMaterial;
-    TQlUdQskMqFOeNF: THREE.MeshStandardMaterial;
-    ulJMfFlutqmNQMW: THREE.MeshStandardMaterial;
-    XmFnkDCORGzfeME: THREE.MeshStandardMaterial;
-    RyMGdvvvrICYPYi: THREE.MeshStandardMaterial;
-    QvIzXEFfzNggOmB: THREE.MeshStandardMaterial;
-    peGpnBqcYHYUYsw: THREE.MeshStandardMaterial;
-    fNwAJBobjIFRfvB: THREE.MeshStandardMaterial;
-    ZRtDNbbFJTtCHrm: THREE.MeshStandardMaterial;
-    sQFBWaBkjsgwGvu: THREE.MeshStandardMaterial;
-    FXtoXdXSZfIeavz: THREE.MeshStandardMaterial;
-    oERDOwdFTcMQzDv: THREE.MeshStandardMaterial;
-    OthLhWgjvJJXXXx: THREE.MeshStandardMaterial;
+    lbGSuJJwEsUTzIm: THREE.MeshStandardMaterial;
+    BczvixNfkWQzRzZ: THREE.MeshStandardMaterial;
+    jRMWtdSAaujlvUA: THREE.MeshStandardMaterial;
+    CGiumILqqSMVyeb: THREE.MeshStandardMaterial;
+    UpOvKwLUUXPmnPU: THREE.MeshStandardMaterial;
+    yVmFXNTCIwNkqVT: THREE.MeshStandardMaterial;
+    SELuppcPLrlTpBi: THREE.MeshStandardMaterial;
+    zqeFZcIteZtOShc: THREE.MeshStandardMaterial;
     initialShadingGroup: THREE.MeshStandardMaterial;
-    zSTXkYgEDkTgmAG: THREE.MeshStandardMaterial;
-    stkDfiDJRcgomRA: THREE.MeshStandardMaterial;
-    NYJQUGhFFttpmSc: THREE.MeshStandardMaterial;
-    FxVDqFpCAhktJsF: THREE.MeshStandardMaterial;
-    uzwDFWlQEbgKaKk: THREE.MeshStandardMaterial;
-    TUaXhUUzDBaiMXN: THREE.MeshStandardMaterial;
-    HOLRHAuxFvQaQOG: THREE.MeshStandardMaterial;
-    vfSIsEZWCUAlBZY: THREE.MeshStandardMaterial;
-    ICUyIsjyBwzbuKl: THREE.MeshStandardMaterial;
-    ToljNQRLmTtuwNl: THREE.MeshStandardMaterial;
+    ZpTrUizuxJQUyzW: THREE.MeshStandardMaterial;
+    LJSCtLIrHNHZnIH: THREE.MeshStandardMaterial;
+    mpJhsaJJZPPWMEX: THREE.MeshStandardMaterial;
+    VfcxYmbOfnqunYx: THREE.MeshStandardMaterial;
+    zWLcvvnJhbcTEtJ: THREE.MeshStandardMaterial;
+    SKOFticEGTqECbB: THREE.MeshStandardMaterial;
+    PCfVLhSpFVCvRmc: THREE.MeshStandardMaterial;
+    HpEeGHRuOqfcIZU: THREE.MeshStandardMaterial;
+    IlNnjEDxsExlBOr: THREE.MeshStandardMaterial;
+    iPZiEncThgnBMJv: THREE.MeshStandardMaterial;
+    hPcehRUjcLAosED: THREE.MeshStandardMaterial;
+    kOcboIDeohDRqCf: THREE.MeshStandardMaterial;
+    HPAOpCInJKBtaOC: THREE.MeshStandardMaterial;
+    zaEqorbaeeADKgU: THREE.MeshStandardMaterial;
+    pZbDFXVUkfRwjmQ: THREE.MeshStandardMaterial;
+    UPMcPXFSRXevSGt: THREE.MeshStandardMaterial;
+    NQXltfOcKPZPQdI: THREE.MeshStandardMaterial;
+    WLATjirhQCUYAAG: THREE.MeshStandardMaterial;
+    BMKLbAPYqPmfArt: THREE.MeshStandardMaterial;
+    XNDkEZQapqqDHpk: THREE.MeshStandardMaterial;
+    jAWKNAaRBMlZYro: THREE.MeshStandardMaterial;
+    VqwNZwmDotIMflD: THREE.MeshStandardMaterial;
+    JjuwNKnMBUdtRLb: THREE.MeshStandardMaterial;
   };
 };
 
-export const MacbookAir = (props: JSX.IntrinsicElements['group']) => {
+export const MBP = (props: JSX.IntrinsicElements['group']) => {
   const { nodes, materials } = useGLTF(
-    '/macbook_air_m1_chip_silver/scene.gltf'
+    '/2021_macbook_pro_14_m1_pro__m1_max.glb'
   ) as GLTFResult;
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
         <group rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
           <mesh
-            geometry={nodes.BzNfMMFMUvENCVB.geometry}
-            material={materials.aqhAfpkxnZPmIhk}
+            geometry={nodes.WeTEPJkcTkMBwBo.geometry}
+            material={materials.lbGSuJJwEsUTzIm}
           />
           <mesh
-            geometry={nodes.vAGUyiVXfoNCfiz.geometry}
-            material={materials.TQlUdQskMqFOeNF}
+            geometry={nodes.yxTDdMZViYkuOKm.geometry}
+            material={materials.BczvixNfkWQzRzZ}
           />
           <mesh
-            geometry={nodes.knmwBVvqKBprdhy.geometry}
-            material={materials.ulJMfFlutqmNQMW}
+            geometry={nodes.pPCeNYAcgHQGnfB.geometry}
+            material={materials.jRMWtdSAaujlvUA}
           />
           <mesh
-            geometry={nodes.IYquytLCepLmUBo.geometry}
-            material={materials.XmFnkDCORGzfeME}
+            geometry={nodes.CpRxqsFibJhVZKA.geometry}
+            material={materials.CGiumILqqSMVyeb}
           />
           <mesh
-            geometry={nodes.XzIjLarnJovNeFY.geometry}
-            material={materials.RyMGdvvvrICYPYi}
+            geometry={nodes.abgVijaHVNRUvcc.geometry}
+            material={materials.UpOvKwLUUXPmnPU}
           />
           <mesh
-            geometry={nodes.TyqbjvAzBnHiKwb.geometry}
-            material={materials.QvIzXEFfzNggOmB}
+            geometry={nodes.CEvArJuvvmtQsgk.geometry}
+            material={materials.yVmFXNTCIwNkqVT}
           />
           <mesh
-            geometry={nodes.DghamaUxTHefQMN.geometry}
-            material={materials.peGpnBqcYHYUYsw}
+            geometry={nodes.aUVveCqqwsqchVB.geometry}
+            material={materials.yVmFXNTCIwNkqVT}
           />
           <mesh
-            geometry={nodes.wBBInSfLdDJGZAT.geometry}
-            material={materials.fNwAJBobjIFRfvB}
+            geometry={nodes.fiqlelggeOoTUAw.geometry}
+            material={materials.SELuppcPLrlTpBi}
           />
           <mesh
-            geometry={nodes.MufZdDNbnijUuDI.geometry}
-            material={materials.ZRtDNbbFJTtCHrm}
+            geometry={nodes.zlRXoydEgBQgFUa.geometry}
+            material={materials.zqeFZcIteZtOShc}
           />
           <mesh
-            geometry={nodes.dzdDbHwlhsKhKXE.geometry}
-            material={materials.sQFBWaBkjsgwGvu}
-          />
-          <mesh
-            geometry={nodes.zmyDIvIISmVcrBw.geometry}
-            material={materials.FXtoXdXSZfIeavz}
-          />
-          <mesh
-            geometry={nodes.QFkVghDULzcFGVS.geometry}
-            material={materials.oERDOwdFTcMQzDv}
-          />
-          <mesh
-            geometry={nodes.DBvXeGikYLUKwdH.geometry}
-            material={materials.OthLhWgjvJJXXXx}
-          />
-          <mesh
-            geometry={nodes.AwlBoBERHXitENF.geometry}
+            geometry={nodes.YvEVHGlTGUxXlGj.geometry}
             material={materials.initialShadingGroup}
           />
           <mesh
-            geometry={nodes.FxYJZRjJWVjYwLV.geometry}
-            material={materials.zSTXkYgEDkTgmAG}
+            geometry={nodes.FnbkdmFKVeCCxTX.geometry}
+            material={materials.ZpTrUizuxJQUyzW}
           />
           <mesh
-            geometry={nodes.efIPqtkSgQqIhbu.geometry}
-            material={materials.stkDfiDJRcgomRA}
+            geometry={nodes.ehiyYGFzDbgxhiD.geometry}
+            material={materials.LJSCtLIrHNHZnIH}
           />
           <mesh
-            geometry={nodes.myHPgRcFLsxMInV.geometry}
-            material={materials.NYJQUGhFFttpmSc}
+            geometry={nodes.NhThIZELXlNUoIr.geometry}
+            material={materials.mpJhsaJJZPPWMEX}
           />
           <mesh
-            geometry={nodes.vmspsaCrmgKKjDd.geometry}
-            material={materials.aqhAfpkxnZPmIhk}
+            geometry={nodes.RYgQzNzcnFbacQH.geometry}
+            material={materials.VfcxYmbOfnqunYx}
           />
           <mesh
-            geometry={nodes.chqYjnnQUYDygUd.geometry}
-            material={materials.FxVDqFpCAhktJsF}
+            geometry={nodes.JtnJKXAEPaOoepM.geometry}
+            material={materials.lbGSuJJwEsUTzIm}
           />
           <mesh
-            geometry={nodes.ZbOWBLfcdfJLGbf.geometry}
+            geometry={nodes.UxiDBlCRfXiMBzT.geometry}
+            material={materials.zWLcvvnJhbcTEtJ}
+          />
+          <mesh
+            geometry={nodes.NgmQYtxXWDmCavo.geometry}
+            material={materials.SKOFticEGTqECbB}
+          />
+          <mesh
+            geometry={nodes.PSIiVLWbMOjTmDb.geometry}
+            material={materials.SKOFticEGTqECbB}
+          />
+          <mesh
+            geometry={nodes.RkSurqpnfNMQZfv.geometry}
+            material={materials.zWLcvvnJhbcTEtJ}
+          />
+          <mesh
+            geometry={nodes.YJMoQnvBNpTrgeH.geometry}
+            material={materials.PCfVLhSpFVCvRmc}
+          />
+          <mesh
+            geometry={nodes.KCEhahuknsxQOxv.geometry}
+            material={materials.HpEeGHRuOqfcIZU}
+          />
+          <mesh
+            geometry={nodes.tEHnKyDsqJuxIpz.geometry}
+            material={materials.yVmFXNTCIwNkqVT}
+          />
+          <mesh
+            geometry={nodes.TCGsaoyNbPKzeSS.geometry}
+            material={materials.yVmFXNTCIwNkqVT}
+          />
+          <mesh
+            geometry={nodes.DAuseNOrQKyrxKl.geometry}
+            material={materials.yVmFXNTCIwNkqVT}
+          />
+          <mesh
+            geometry={nodes.SjXIFRJFXEqYDUr.geometry}
+            material={materials.PCfVLhSpFVCvRmc}
+          />
+          <mesh
+            geometry={nodes.eAcvqfZlEdoxHsj.geometry}
+            material={materials.IlNnjEDxsExlBOr}
+          />
+          <mesh
+            geometry={nodes.gkxaPoMYYRpyVMR.geometry}
+            material={materials.iPZiEncThgnBMJv}
+          />
+          <mesh
+            geometry={nodes.xlRLalLTesirCGW.geometry}
+            material={materials.hPcehRUjcLAosED}
+          />
+          <mesh
+            geometry={nodes.ZlizOzukFeXwbga.geometry}
+            material={materials.kOcboIDeohDRqCf}
+          />
+          <mesh
+            geometry={nodes.wXiLpiodZWNDroe.geometry}
+            material={materials.HPAOpCInJKBtaOC}
+          />
+          <mesh
+            geometry={nodes.PTxrSKzcEmHVtif.geometry}
+            material={materials.VfcxYmbOfnqunYx}
+          />
+          <mesh
+            geometry={nodes.RjGOdbHqvxkiDns.geometry}
+            material={materials.lbGSuJJwEsUTzIm}
+          />
+          <mesh
+            geometry={nodes.WPFmzKypKbUYgQT.geometry}
+            material={materials.lbGSuJJwEsUTzIm}
+          />
+          <mesh
+            geometry={nodes.QHqPxKdexBoFnAK.geometry}
+            material={materials.zaEqorbaeeADKgU}
+          />
+          <mesh
+            geometry={nodes.NWErafhynAfYQEz.geometry}
+            material={materials.pZbDFXVUkfRwjmQ}
+          />
+          <mesh
+            geometry={nodes.tEwRkclpxjXZzil.geometry}
+            material={materials.UPMcPXFSRXevSGt}
+          />
+          <mesh
+            geometry={nodes.QYMcPaZnXQfyXcJ.geometry}
+            material={materials.NQXltfOcKPZPQdI}
+          />
+          <mesh
+            geometry={nodes.piXptsgcOfaGWrM.geometry}
+            material={materials.WLATjirhQCUYAAG}
+          />
+          <mesh
+            geometry={nodes.SjSNuZdtWKZRuoq.geometry}
+            material={materials.mpJhsaJJZPPWMEX}
+          />
+          <mesh
+            geometry={nodes.QFFLzaWPRnuQYJR.geometry}
+            material={materials.hPcehRUjcLAosED}
+          />
+          <mesh
+            geometry={nodes.xjTvBwZFGvSMOud.geometry}
+            material={materials.hPcehRUjcLAosED}
+          />
+          <mesh
+            geometry={nodes.VqfccLWHjnpnmIO.geometry}
+            material={materials.BMKLbAPYqPmfArt}
+          />
+          <mesh
+            geometry={nodes.mUrIWHenIQKVHcb.geometry}
+            material={materials.BMKLbAPYqPmfArt}
+          />
+          <mesh
+            geometry={nodes.NdRhLFCrSxRNTxn.geometry}
+            material={materials.BMKLbAPYqPmfArt}
+          />
+          <mesh
+            geometry={nodes.vivXPkdlqllUnrl.geometry}
+            material={materials.XNDkEZQapqqDHpk}
+          />
+          <mesh
+            geometry={nodes.rIsAbujsARaHSub.geometry}
+            material={materials.jAWKNAaRBMlZYro}
+          />
+          <mesh
+            geometry={nodes.QMBrsnrwfcVKELm.geometry}
+            material={materials.VqwNZwmDotIMflD}
+          />
+          <mesh
+            geometry={nodes.NqLxSKdAypgOdPC.geometry}
             material={materials.initialShadingGroup}
           />
           <mesh
-            geometry={nodes.qtSHRxgTTtHDvvz.geometry}
-            material={materials.uzwDFWlQEbgKaKk}
+            geometry={nodes.guoofBSjCEiTIJr.geometry}
+            material={materials.JjuwNKnMBUdtRLb}
           />
           <mesh
-            geometry={nodes.GuLDLtucEkhptAy.geometry}
-            material={materials.TUaXhUUzDBaiMXN}
-          />
-          <mesh
-            geometry={nodes.iPaYIdfHAoErrDD.geometry}
-            material={materials.HOLRHAuxFvQaQOG}
-          />
-          <mesh
-            geometry={nodes.tJeThulAohRVCYu.geometry}
-            material={materials.vfSIsEZWCUAlBZY}
-          />
-          <mesh
-            geometry={nodes.XqwOTtPISptJqzk.geometry}
-            material={materials.OthLhWgjvJJXXXx}
-          />
-          <mesh
-            geometry={nodes.vyTbhVpPBeJrZxo.geometry}
-            material={materials.initialShadingGroup}
-          />
-          <mesh
-            geometry={nodes.AUMLEhzRIkXUmsX.geometry}
-            material={materials.peGpnBqcYHYUYsw}
-          />
-          <mesh
-            geometry={nodes.TkULcWkLJtogGVS.geometry}
-            material={materials.ICUyIsjyBwzbuKl}
-          />
-          <mesh
-            geometry={nodes.xJpdzOlweWAHqYU.geometry}
-            material={materials.ICUyIsjyBwzbuKl}
-          />
-          <mesh
-            geometry={nodes.TFsPkHBGmohYDUF.geometry}
-            material={materials.NYJQUGhFFttpmSc}
-          />
-          <mesh
-            geometry={nodes.pcpUMJfNezWkOrK.geometry}
-            material={materials.NYJQUGhFFttpmSc}
-          />
-          <mesh
-            geometry={nodes.vCoMumYuFVRrDxl.geometry}
-            material={materials.NYJQUGhFFttpmSc}
-          />
-          <mesh
-            geometry={nodes.HzLAtwpaEQrTUta.geometry}
-            material={materials.aqhAfpkxnZPmIhk}
-          />
-          <mesh
-            geometry={nodes.tThJTMCDmnrUEvB.geometry}
-            material={materials.ToljNQRLmTtuwNl}
-          />
-          <mesh
-            geometry={nodes.MXSRHoWxOJGMjpX.geometry}
-            material={materials.ToljNQRLmTtuwNl}
-          />
-          <mesh
-            geometry={nodes.NZXezpncDrTVPYd.geometry}
-            material={materials.ToljNQRLmTtuwNl}
-          />
-          <mesh
-            geometry={nodes.NfMmOpMNmolpLfw.geometry}
-            material={materials.NYJQUGhFFttpmSc}
-          />
-          <mesh
-            geometry={nodes.TVhBYZaRqtFURFF.geometry}
-            material={materials.aqhAfpkxnZPmIhk}
+            geometry={nodes.jvyJQHpRnZNPEYh.geometry}
+            material={materials.LJSCtLIrHNHZnIH}
           />
         </group>
       </group>
