@@ -1,12 +1,13 @@
 import { useState } from 'react';
-import { Example1 } from './components';
+import { BasicSphere, Macbook } from './components';
 
 const EXAMPLE_MAP: Record<string, React.ComponentType> = {
-  'Example 1': Example1,
+  'Basic Sphere': BasicSphere,
+  Macbook: Macbook,
 };
 
 function App() {
-  const [componentName, setComponentName] = useState('Example 1');
+  const [componentName, setComponentName] = useState('Basic Sphere');
 
   const Component = EXAMPLE_MAP[componentName];
 
