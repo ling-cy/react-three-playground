@@ -7,7 +7,7 @@ title: Macbook Air M1 Chip Silver
 */
 
 import * as THREE from 'three';
-import React, { useRef } from 'react';
+import React, { forwardRef } from 'react';
 import { useGLTF } from '@react-three/drei';
 import { GLTF } from 'three-stdlib';
 
@@ -80,12 +80,13 @@ type MacbookAirGLTFResult = GLTF & {
   };
 };
 
-export const MacbookAir = (props: JSX.IntrinsicElements['group']) => {
+// export const MacbookAir = (props: JSX.IntrinsicElements['group'])
+export const MacbookAir = forwardRef(({ ...props }, ref) => {
   const { nodes, materials } = useGLTF(
     '/macbook_air_m1_chip_silver.glb'
   ) as MacbookAirGLTFResult;
   return (
-    <group {...props} dispose={null}>
+    <group {...props} dispose={null} ref={ref}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
         <group rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
           <mesh
@@ -244,6 +245,6 @@ export const MacbookAir = (props: JSX.IntrinsicElements['group']) => {
       </group>
     </group>
   );
-};
+});
 
 useGLTF.preload('/macbook_air_m1_chip_silver.glb');
